@@ -1,0 +1,30 @@
+{
+  "routing": {
+    "orchestrator": {
+      "primary": "gemini-flash",
+      "fallbacks": [
+        "openrouter/gemma",
+        "openrouter/gpt-oss"
+      ]
+    },
+    "research": {
+      "primary": "gemini-flash",
+      "fallbacks": [
+        "openrouter/free"
+      ]
+    },
+    "coding": {
+      "primary": "qwen-coder",
+      "fallbacks": [
+        "gpt-oss",
+        "gemma"
+      ]
+    },
+    "validation": {
+      "primary": "gemini-flash",
+      "fallbacks": [
+        "gpt-oss"
+      ]
+    }
+  }
+}
