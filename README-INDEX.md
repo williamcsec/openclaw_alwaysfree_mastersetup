@@ -1,7 +1,8 @@
 # OpenClaw Always Free Master Setup - Repository Index
 
 ## Purpose
-Single navigation hub for architecture, setup documentation, configuration examples, scripts, and governance files.
+Single navigation hub for architecture, setup documentation, configuration examples,
+scripts, and governance files.
 
 ---
 
@@ -75,4 +76,5 @@ Single navigation hub for architecture, setup documentation, configuration examp
 ---
 
 ## Repository Goal
-Provide a reproducible, low-cost, multi-provider OpenClaw deployment framework for long-running autonomous workflows with production-ready operational controls.
+Provide a reproducible, low-cost, multi-provider OpenClaw 
+deployment framework for long-running autonomous workflows with production-ready operational controls.
