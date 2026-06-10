@@ -1,12 +1,14 @@
 # OpenClaw Always Free Master Setup - Repository Index
 
 ## Purpose
-Single navigation hub for architecture, setup documentation, configuration examples,
-scripts, and governance files.
+
+Single navigation hub for architecture, setup documentation,
+configuration examples, scripts, and governance files.
 
 ---
 
 ## Architecture
+
 - [architecture/system-overview.md](architecture/system-overview.md)
 - [architecture/provider-matrix.md](architecture/provider-matrix.md)
 - [architecture/subagent-design.md](architecture/subagent-design.md)
@@ -16,12 +18,14 @@ scripts, and governance files.
 ---
 
 ## Configuration
+
 - [configs/openclaw-alwaysfree.example.json](configs/openclaw-alwaysfree.example.json)
 - [configs/model-routing.example.json](configs/model-routing.example.json)
 
 ---
 
 ## Documentation
+
 - [docs/INDEX.md](docs/INDEX.md)
 - [docs/AUDIT_REPORT.md](docs/AUDIT_REPORT.md)
 - [docs/01-overview.md](docs/01-overview.md)
@@ -51,6 +55,7 @@ scripts, and governance files.
 ---
 
 ## Automation Scripts
+
 - [scripts/install.sh](scripts/install.sh)
 - [scripts/backup.sh](scripts/backup.sh)
 - [scripts/restore.sh](scripts/restore.sh)
@@ -61,6 +66,7 @@ scripts, and governance files.
 ---
 
 ## Templates
+
 - [templates/secrets-template.env](templates/secrets-template.env)
 - [.github/ISSUE_TEMPLATE/bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md)
 - [.github/ISSUE_TEMPLATE/feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md)
@@ -69,6 +75,7 @@ scripts, and governance files.
 ---
 
 ## Release and Governance
+
 - [CHANGELOG.md](CHANGELOG.md)
 - [VERSION](VERSION)
 - [LICENSE](LICENSE)
@@ -76,5 +83,7 @@ scripts, and governance files.
 ---
 
 ## Repository Goal
-Provide a reproducible, low-cost, multi-provider OpenClaw 
-deployment framework for long-running autonomous workflows with production-ready operational controls.
+
+Provide a reproducible, low-cost, multi-provider OpenClaw deployment
+framework for long-running autonomous workflows with production-ready
+operational controls.
