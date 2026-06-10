@@ -3,6 +3,7 @@
 ## Scope
 Branch audited: `copilot/harden-v1-release`  
 Compared against: `origin/main`
+Audit baseline commit: `cd6bdd6`
 
 Audit objectives completed:
 1. Detailed merge summary
