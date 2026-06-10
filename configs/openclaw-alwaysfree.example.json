@@ -1,0 +1,100 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/home/ubuntu/.openclaw/workspace",
+      "timeoutSeconds": 90000,
+      "subagents": {
+        "maxConcurrent": 12
+      },
+      "memorySearch": {
+        "enabled": false
+      },
+      "models": {
+        "openrouter/free": {},
+        "openrouter/google/gemma-4-31b-it:free": {},
+        "openrouter/openai/gpt-oss-120b:free": {},
+        "openrouter/openai/gpt-oss-20b:free": {},
+        "openrouter/google/gemma-4-26b-a4b-it:free": {},
+        "gemini/gemini-2.5-flash": {},
+        "nvidia/llama-3.3-nemotron-super-49b-v1": {}
+      },
+      "model": {
+        "primary": "openrouter/free",
+        "fallbacks": [
+          "openrouter/google/gemma-4-31b-it:free",
+          "openrouter/openai/gpt-oss-120b:free",
+          "openrouter/openai/gpt-oss-20b:free",
+          "openrouter/google/gemma-4-26b-a4b-it:free"
+        ]
+      }
+    }
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "exa"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      },
+      "openrouter": {
+        "enabled": true
+      },
+      "exa": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "${EXA_API_KEY}"
+          }
+        }
+      },
+      "memory-core": {
+        "enabled": true,
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        }
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "${TELEGRAM_BOT_TOKEN}",
+      "groups": {
+        "*": {
+          "requireMention": true
+        }
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "port": 18789,
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "${GATEWAY_TOKEN}"
+    }
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      }
+    }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "telegram:YOUR_TELEGRAM_ID"
+    ]
+  }
+}
