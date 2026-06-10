@@ -26,6 +26,9 @@
 21. [21-cost-optimization-playbook.md](21-cost-optimization-playbook.md)
 22. [22-troubleshooting.md](22-troubleshooting.md)
 23. [23-openclaw-production-readiness.md](23-openclaw-production-readiness.md)
+24. [24-interactive-installer.md](24-interactive-installer.md)
+25. [25-zero-to-production.md](25-zero-to-production.md)
+26. [26-post-install-maintenance.md](26-post-install-maintenance.md)
 
 ## Audit and Governance
 - [AUDIT_REPORT.md](AUDIT_REPORT.md)

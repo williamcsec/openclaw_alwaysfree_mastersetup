@@ -51,6 +51,9 @@ configuration examples, scripts, and governance files.
 - [docs/21-cost-optimization-playbook.md](docs/21-cost-optimization-playbook.md)
 - [docs/22-troubleshooting.md](docs/22-troubleshooting.md)
 - [docs/23-openclaw-production-readiness.md](docs/23-openclaw-production-readiness.md)
+- [docs/24-interactive-installer.md](docs/24-interactive-installer.md)
+- [docs/25-zero-to-production.md](docs/25-zero-to-production.md)
+- [docs/26-post-install-maintenance.md](docs/26-post-install-maintenance.md)
 
 ---
 

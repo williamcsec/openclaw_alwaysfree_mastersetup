@@ -27,12 +27,14 @@ low-cost and always-free-friendly infrastructure.
 
 ## Quick start
 
-1. Read `docs/01-overview.md`
-2. Complete infrastructure preparation in `docs/02-vps-setup.md`
-3. Install OpenClaw using `docs/03-openclaw-installation.md`
-4. Configure providers using `docs/04-*` through `docs/08-*`
-5. Validate routing and production readiness using
-   `docs/09-*` onward
+```bash
+git clone https://github.com/williamcsec/openclaw_alwaysfree_mastersetup
+cd openclaw_alwaysfree_mastersetup
+chmod +x install.sh
+sudo ./install.sh
+```
+
+The interactive installer will guide you through provider setup, environment generation, and Docker-based deployment.
 
 ## Documentation index
 
